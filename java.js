@@ -2,6 +2,7 @@ const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 const link = document.querySelectorAll(".nav-links li");
+console.log(screen.width);
 
 
 hamburger.addEventListener("click", () => {
